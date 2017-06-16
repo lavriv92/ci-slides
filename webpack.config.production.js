@@ -37,11 +37,14 @@ module.exports = {
       test: /\.css$/,
       loader: "style-loader!css-loader"
     }, {
-      test: /\.(png|jpg|gif)$/,
+      test: /\.(png|jpg|gif|jpeg)$/,
       loader: "url-loader?limit=8192"
     }, {
       test: /\.svg$/,
       loader: "url-loader?limit=10000&mimetype=image/svg+xml"
+    },{
+      test: /\.example$/,
+      loader: "raw-loader"
     }]
   }
 };
