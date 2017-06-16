@@ -79,9 +79,9 @@ export default class Presentation extends React.Component {
         <Slide transition={["zoom", "slide"]} transitionDuration={500} >
           <Heading size={1} fit lineHeight={1}>Common problems of development process</Heading>
           <List>
-            <ListItem lineHeight={2}>Too match time to build releases</ListItem>
-            <ListItem lineHeight={2}>Code quality can be better than we have now every time</ListItem>
-            <ListItem lineHeight={2}>A lot of developers is forget about infrnpm sastructure cases (sourse code linting, write actual tests, small refactoring work)</ListItem>
+            <ListItem lineHeight={2}>Too mutch time to build releases</ListItem>
+            <ListItem lineHeight={2}>Code quality can be better.</ListItem>
+            <ListItem lineHeight={2}>A lot of developers is forgot about infrastructure cases (sourse code linting, write actual tests, small refactoring work)</ListItem>
           </List>
         </Slide>
         <Slide>
